@@ -1,10 +1,10 @@
 {
   "name": "jptube-server-node",
   "version": "1.0.0",
-  "main": "output/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node output/index.js"
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^22.15.12",
